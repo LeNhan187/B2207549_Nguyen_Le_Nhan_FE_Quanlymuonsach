@@ -3,7 +3,7 @@
     <section class="relative h-[80vh] min-h-[600px] flex items-center justify-center text-white overflow-hidden">
       <div 
         class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 ease-out transform hover:scale-105"
-        :style="{ backgroundImage: `url('https://images.unsplash.com/photo-1651519548696-8853b7b85af9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')` }"
+        :style="{ backgroundImage: `url('https://media.timeout.com/images/106013965/1920/1080/image.jpg')` }"
       ></div>
       <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
 
@@ -80,13 +80,13 @@
         ></div>
         <div class="relative z-10 max-w-4xl mx-auto text-center">
             <p class="text-3xl md:text-4xl font-serif italic leading-relaxed mb-8">
-                "Đọc sách không chỉ là học hỏi, mà còn là một cuộc phiêu lưu vô tận vào thế giới của tri thức và trí tưởng tượng."
+                "The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”
             </p>
             <p class="text-xl font-semibold text-gray-300 delay-100">
-                — Minh Trung
+                - Dr Seuss
             </p>
             <img 
-                src="https://scontent.fvca1-4.fna.fbcdn.net/v/t39.30808-6/464931799_8700533080007023_5965225201785038525_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG-zwbOzalPB7YSj93DtwXqe5JKkMxSgjJ7kkqQzFKCMgBLBqAaAxx6MA3V8OgL9u1dkVmHZDPbq2KTLru2kvAy&_nc_ohc=OO_f3QF3W9AQ7kNvwE0nBOq&_nc_oc=AdmAB4l0CzDJ79bWPERLtQfqdzsTEyIcyLWwlYp_julWF3jA5KYdjMXwFlj2vybN9uVWJV_v7f9sCsSGaWveQymz&_nc_zt=23&_nc_ht=scontent.fvca1-4.fna&_nc_gid=x2jgPYgmrplTVA940MTGBg&oh=00_AfSN-bfgwQBq31A-Ufw1snYiBPVSkeTMtUzt0kuYXQBGZg&oe=688C0ED2" 
+                src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/05/theodor-geisel-1957.jpg" 
                 alt="Người đang đọc sách" 
                 class="w-32 h-32 rounded-full mx-auto mt-10 object-cover shadow-xl border-4 border-gray-600 delay-200"
             >
