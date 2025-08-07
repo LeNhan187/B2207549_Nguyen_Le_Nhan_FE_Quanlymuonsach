@@ -1,16 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File layout trang đăng nhập và đăng ký.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
 <template>
   <div class="min-h-screen flex items-center justify-center bg-gray-50 p-4 sm:p-6 lg:p-8">
     

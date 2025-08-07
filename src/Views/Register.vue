@@ -1,16 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File xây dựng form đăng ký 2 bước, bắt một số lỗi nhập ký tự.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
 <template>
   <div class="w-full">
     <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-2">

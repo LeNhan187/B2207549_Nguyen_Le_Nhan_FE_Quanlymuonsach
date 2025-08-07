@@ -1,18 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File component này chứa Footer bao gồm trang Home, BookList, BookDetail, link facebook dẫn đến trang chủ của tôi.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
-
-
 <template>
   <footer class="relative bg-gray-900 text-slate-300 pt-16 pb-6">
     <div 

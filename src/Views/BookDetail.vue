@@ -1,17 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File xây dựng trang chi tiết sách, dùng mượn sách.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
-
 <template>
   <div class="max-w-5xl mx-auto px-4 py-8 md:py-12 animate-fade-in-up">
     <button 

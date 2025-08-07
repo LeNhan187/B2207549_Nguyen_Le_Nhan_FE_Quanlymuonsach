@@ -1,17 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File login xây dựng form đăng nhập bắt một số lỗi nhập.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
-
 <template>
   <form @submit.prevent="handleLogin" class="space-y-6">
     <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-8">

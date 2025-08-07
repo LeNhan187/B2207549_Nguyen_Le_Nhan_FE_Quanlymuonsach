@@ -1,18 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File component này chứa thẻ chi tiết một quyển sách.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
-
-
 <template>
   <div class="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden flex flex-col min-h-[400px]
               transform transition-all duration-300 hover:scale-[1.015] hover:shadow-2xl hover:border-gray-200">

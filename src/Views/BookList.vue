@@ -1,16 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File xây dựng danh sách sản phẩm.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
 <template>
   <div class="max-w-7xl mx-auto px-4 py-8 md:py-12 animate-fade-in-up">
     <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2 text-center relative">

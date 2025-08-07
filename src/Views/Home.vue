@@ -1,16 +1,3 @@
-<!-- /**
- * ---------------------------------------------------------------------------------------------
- * Tên dự án: Website Quản lý Thư viện Trực tuyến
- * ---------------------------------------------------------------------------------------------
- * Mô tả: File Home xây dựng các hiệu ứng đẹp mắt và các section giới thiệu.
- *
- * @author  Nguyễn Nhật Hồng Phước
- * @mssv    B2308385
- * @date    27/07/2025
- *
- * @copyright (c) 2025 Nguyễn Nhật Hồng Phước. All rights reserved.
- * ---------------------------------------------------------------------------------------------
- */ -->
 <template>
   <div class="bg-gray-50 font-sans antialiased">
     <section class="relative h-[80vh] min-h-[600px] flex items-center justify-center text-white overflow-hidden">
