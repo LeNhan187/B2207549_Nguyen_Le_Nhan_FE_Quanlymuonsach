@@ -4,7 +4,7 @@
     <div class="relative z-10 flex flex-col lg:flex-row bg-white rounded-3xl shadow-2xl overflow-hidden max-w-7xl w-full">
 
       <div class="relative lg:w-1/2 min-h-[300px] lg:min-h-[600px] bg-cover bg-center transition-all duration-500 transform hover:scale-105"
-           :style="{ backgroundImage: 'url(\'https://images.unsplash.com/photo-1651519548696-8853b7b85af9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\')' }">
+           :style="{ backgroundImage: 'url(\'https://www.ayalafoundation.org/wp-content/uploads/2023/03/Picture1-1024x742.jpg\')' }">
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-75"></div>
         <div class="absolute inset-0 flex flex-col items-center justify-center p-8 text-white text-center">
           <h2 class="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight drop-shadow-lg">

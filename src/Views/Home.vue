@@ -5,12 +5,12 @@
         class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 ease-out transform hover:scale-105"
         :style="{ backgroundImage: `url('https://media.timeout.com/images/106013965/1920/1080/image.jpg')` }"
       ></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-violet-900 via-violet-900/10 to-transparent"></div>
 
       <div class="relative z-10 text-center p-4 max-w-4xl mx-auto">
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg animate-fade-in-down">
           <span v-if="user.isLoggedIn" class="text-white">Chào mừng {{ user.username }}</span>
-          <span v-else class="text-white">Khám phá Tri Thức Không Giới Hạn</span>
+          <span v-else class="text-white">Tri thức là vô hạn</span>
         </h1>
         <p class="mt-6 text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto animate-fade-in-up delay-200">
           Đắm mình vào thế giới sách, từ những câu chuyện cổ điển đến tri thức hiện đại, mọi lúc mọi nơi.
@@ -24,7 +24,7 @@
               placeholder="Tìm kiếm sách, tác giả, thể loại..."
               class="w-full bg-transparent px-5 py-3 text-gray-800 placeholder-gray-500 focus:outline-none text-lg"
             />
-            <button type="submit" class="bg-gray-800 text-white rounded-full p-4 hover:bg-gray-700 transition-all duration-300 transform group-hover:scale-105 active:scale-95 shadow-lg flex items-center justify-center">
+            <button type="submit" class="bg-violet-900/90 text-white rounded-full p-4 hover:bg-violet-700 transition-all duration-300 transform group-hover:scale-105 active:scale-95 shadow-lg flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>

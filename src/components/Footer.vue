@@ -4,7 +4,7 @@
       class="absolute inset-0 bg-cover bg-center z-0" 
       style="background-image: url('https://images.unsplash.com/photo-1525307932909-fd14b501d8d3?w=1920&auto=format&fit=crop&q=80');"
     ></div>
-    <div class="absolute inset-0 bg-gray-900 opacity-80 z-10"></div>
+    <div class="absolute inset-0 bg-violet-900/50 opacity-80 z-10"></div>
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-20">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -12,7 +12,7 @@
         <div class="flex flex-col items-center md:items-start">
           <div class="flex items-center gap-3 mb-4">
             <img src="/favicon.ico" alt="Logo" class="h-10 w-10">
-            <span class="font-bold text-white text-xl">Thư Viện Online</span>
+            <span class="font-bold text-white text-xl">Online Library</span>
           </div>
           <p class="text-center md:text-left text-slate-400">
             Nơi tri thức được chia sẻ và lan tỏa.
@@ -45,7 +45,7 @@
       <div class="mt-12 border-t border-slate-700"></div>
 
       <div class="mt-8 text-center text-sm text-slate-400">
-        <p>&copy; {{ new Date().getFullYear() }} Thư Viện Online by Nguyễn Nhật Hồng Phước. All Rights Reserved.</p>
+        <p>&copy; {{ new Date().getFullYear() }} Online Library by Nguyễn Lê Nhân. All Rights Reserved.</p>
       </div>
     </div>
   </footer>

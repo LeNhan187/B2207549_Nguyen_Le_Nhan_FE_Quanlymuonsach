@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-slate-800">Quản lý Nội dung</h1>
+      <h1 class="text-3xl font-bold text-slate-800">Quản lý Sách</h1>
       <p class="mt-1 text-slate-500">Thêm, sửa, xóa sách và nhà xuất bản trong hệ thống.</p>
     </div>
 
@@ -29,7 +29,7 @@
             </div>
             <input v-model="bookSearchTerm" type="text" placeholder="Tìm theo tên sách hoặc tác giả..." class="w-full p-3 pl-10 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"/>
           </div>
-          <button @click="openBookModal()" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-lg shadow font-semibold hover:bg-indigo-700 transition">
+          <button @click="openBookModal()" class="flex items-center justify-center gap-2 bg-violet-600 text-white px-5 py-3 rounded-lg shadow font-semibold hover:bg-indigo-700 transition">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>
             <span>Thêm sách mới</span>
           </button>
@@ -65,7 +65,7 @@
         <div class="flex flex-col md:flex-row gap-4 mb-4">
           <input v-model="publisherSearchTerm" type="text" placeholder="Tìm theo tên hoặc địa chỉ NXB..." class="w-full md:w-1/3 p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"/>
           <div class="flex-grow"></div>
-          <button @click="openPublisherModal()" class="flex items-center justify-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-lg shadow font-semibold hover:bg-indigo-700 transition">
+          <button @click="openPublisherModal()" class="flex items-center justify-center gap-2 bg-violet-600 text-white px-5 py-3 rounded-lg shadow font-semibold hover:bg-indigo-700 transition">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>
             <span>Thêm NXB mới</span>
           </button>

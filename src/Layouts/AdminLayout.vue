@@ -34,10 +34,9 @@ onUnmounted(() => {
 
 <template>
   <div class="flex h-screen bg-slate-100 font-sans">
-    <aside class="w-64 flex-shrink-0 bg-slate-800 text-slate-300 flex flex-col">
+    <aside class="w-64 flex-shrink-0 bg-violet-900/90 text-slate-300 flex flex-col">
       <div class="h-16 flex items-center justify-center flex-shrink-0 px-4 border-b border-slate-700">
         <router-link to="/admin" class="flex items-center gap-3">
-          <img src="/favicon.ico" alt="Logo" class="h-8 w-8">
           <span class="font-bold text-white text-lg">Admin Panel</span>
         </router-link>
       </div>
@@ -45,32 +44,32 @@ onUnmounted(() => {
       <nav class="flex-grow p-4">
         <router-link 
           to="/admin/dashboard" 
-          class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-slate-700 transition-colors"
-          active-class="bg-indigo-600 text-white"
+          class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-violet-700 transition-colors"
+          active-class="bg-violet-600 text-white"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg>
           <span>Bảng điều khiển</span>
         </router-link>
         <router-link 
           to="/admin/manage-content" 
-          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-slate-700 transition-colors"
-          active-class="bg-indigo-600 text-white"
+          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-violet-700 transition-colors"
+          active-class="bg-violet-600 text-white"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
-          <span>Quản lý Nội dung</span>
+          <span>Quản lý Sách</span>
         </router-link>
         <router-link 
           to="/admin/manage-users" 
-          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-slate-700 transition-colors"
-          active-class="bg-indigo-600 text-white"
+          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-violet-700 transition-colors"
+          active-class="bg-violet-600 text-white"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21v-1a6 6 0 00-1.78-4.125a4 4 0 00-6.44-6.44m0 0l-1.06-1.06a4 4 0 00-5.657 5.657l1.06 1.06" /></svg>
           <span>Quản lý Người dùng</span>
         </router-link>
         <router-link 
           to="/admin/manage-borrow" 
-          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-slate-700 transition-colors"
-          active-class="bg-indigo-600 text-white"
+          class="flex items-center gap-3 mt-2 px-3 py-2 rounded-md hover:bg-violet-700 transition-colors"
+          active-class="bg-violet-600 text-white"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
           <span>Quản lý Mượn/Trả</span>

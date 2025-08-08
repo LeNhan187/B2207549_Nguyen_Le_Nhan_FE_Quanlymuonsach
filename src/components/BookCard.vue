@@ -22,8 +22,8 @@
       <router-link
         :to="`/books/masach/${book.maSach}`"
         class="mt-auto inline-flex items-center justify-center 
-               px-6 py-3.5 bg-gray-800 text-white rounded-lg font-semibold text-base 
-               hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg"
+               px-6 py-3.5 bg-violet-900/90 text-white rounded-lg font-semibold text-base 
+               hover:bg-violet-700 transition-all duration-300 shadow-md hover:shadow-lg"
         >
         Xem chi tiết 
         <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>

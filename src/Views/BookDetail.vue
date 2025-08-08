@@ -52,7 +52,7 @@
               :disabled="isBorrowing || book.soQuyen <= 0"
               class="w-full text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold text-lg shadow-md hover:shadow-lg flex items-center justify-center gap-2"
               :class="{
-                'bg-gray-800 hover:bg-gray-700': book.soQuyen > 0,
+                'bg-violet-800 hover:bg-violet-700': book.soQuyen > 0,
                 'bg-gray-400 text-gray-700 cursor-not-allowed': book.soQuyen <= 0,
                 'opacity-75 cursor-wait': isBorrowing
               }"
