@@ -120,7 +120,7 @@ function getFilterClass(status) {
       <!-- Filter Buttons -->
       <div class="flex items-center bg-slate-200 rounded-lg p-1 space-x-1">
         <button @click="filterStatus = 'Tất cả'" :class="getFilterClass('Tất cả')">Tất cả</button>
-        <button @click="filterStatus = 'Đang mượn'" :class="getFilterClass('Đang mượn')">Đang mượn</button>
+        <button @click="filterStatus = 'Đang mượn'":class="getFilterClass('Đang mượn')">Đang mượn</button>
         <button @click="filterStatus = 'Quá hạn'" :class="getFilterClass('Quá hạn')">Quá hạn</button>
         <button @click="filterStatus = 'Đã trả'" :class="getFilterClass('Đã trả')">Đã trả</button>
       </div>
